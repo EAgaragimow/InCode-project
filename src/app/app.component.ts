@@ -1,10 +1,4 @@
-import { Component } from '@angular/core';
-import {Observable} from 'rxjs';
-import {Store} from '@ngrx/store';
-
-interface AppState {
-  message: string;
-}
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -12,17 +6,9 @@ interface AppState {
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  message$: Observable<string>;
 
-  constructor(private store: Store<AppState>) {
-    this.message$ = this.store.select('message');
+  constructor() {
+
   }
 
-  spanishMessage() {
-    this.store.dispatch({type: 'SPANISH'});
-  }
-
-  frenchMessage() {
-    this.store.dispatch({type: 'FRENCH'});
-  }
 }
