@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "title": "Nokia C5-00",
+      "description": "..description text for Nokia C5-00..",
+      "neil": "https://moscow.shop.megafon.ru/images/goods/382/38296_p_21.png",
+      "price": 1350,
+      "stock": 35,
+      "id": 1
+    },
+    {
+      "title": "Lenovo A850",
+      "description": "..description text for Lenovo A850..",
+      "neil": "http://static.mobile-arsenal.com.ua/images/catalog/lenovo/a850/lenovo-a850_1-m.jpg",
+      "price": 2250,
+      "stock": 3,
+      "id": 2
+    },
+    {
+      "title": "ZUK Z1",
+      "description": "..description text for ZUK Z1..",
+      "neil": "https://img1.moyo.ua/img/products/1954/44_1500x_1500517051.jpg",
+      "price": 3750,
+      "stock": 14,
+      "id": 3
+    }
+  ]
+}
