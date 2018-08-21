@@ -1,0 +1,27 @@
+ [
+    {
+      "title": "title1",
+      "transcription": "transcription1",
+      "neil": "https://l-userpic.livejournal.com/93409658/13130743",
+      "stock": 30,
+      "price": 1100,
+      "id": 1
+    },
+    {
+      "title": "title2",
+      "transcription": "transcription2",
+      "neil": "https://l-userpic.livejournal.com/93409658/13130743",
+      "stock": 302,
+      "price": 1500,
+      "id": 2
+    },
+    {
+      "title": "title3",
+      "transcription": "transcription3",
+      "neil": "https://l-userpic.livejournal.com/93409658/13130743",
+      "stock": 303,
+      "price": 1950,
+      "id": 3
+    }
+ ]
+

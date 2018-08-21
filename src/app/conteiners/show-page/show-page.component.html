@@ -1,0 +1,4 @@
+<div>
+  <app-product-list [prods$]="prods$"></app-product-list>
+  <h1 *ngIf="!!(errorLoad$ | async)">Load Error</h1>
+</div>
