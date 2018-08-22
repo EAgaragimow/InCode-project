@@ -1,5 +1,5 @@
 import {Action} from '@ngrx/store';
-import {Product} from '../../shared/models/product.model';
+import {Product} from '../../../shared/models/product.model';
 
 export const LOADING_PRODUCT = '[PRODUCT] Loading';
 export const LOADED_PRODUCT_OK = '[PRODUCT] Load success';

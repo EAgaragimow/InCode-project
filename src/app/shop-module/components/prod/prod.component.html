@@ -1,0 +1,16 @@
+<div class="wrap">
+  <mat-card-header>
+    <mat-card-title>{{prod.title}}</mat-card-title>
+    <mat-card-subtitle>Price - {{prod.price}}$, Stock - {{prod.stock}}</mat-card-subtitle>
+  </mat-card-header>
+  <img mat-card-image src="{{prod.neil}}" alt="Photo of a Shiba Inu">
+  <mat-card-content>
+    <p>{{prod.transcription.length > 100 ? prod.transcription.slice(0, 100) + ' ...' : prod.transcription}}</p>
+  </mat-card-content>
+  <mat-card-footer>
+    <div class="button-row">
+      <button mat-raised-button color="primary">Buy</button>
+      <button mat-raised-button color="basic"><i class="fa fa-shopping-cart"></i> Cart</button>
+    </div>
+  </mat-card-footer>
+</div>

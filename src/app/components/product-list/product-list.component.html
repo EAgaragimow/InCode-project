@@ -1,7 +1,0 @@
-<div>
-  <ul *ngIf="(prods$ | async)?.length > 0">
-    <li *ngFor="let prod of (prods$ | async)">
-      <app-prod [prod]="prod"></app-prod>
-    </li>
-  </ul>
-</div>

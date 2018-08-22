@@ -1,5 +1,5 @@
 import {Injectable} from '@angular/core';
-import {ProdService} from '../../shared/services/prod.service';
+import {ProdService} from '../../../shared/services/prod.service';
 import {Actions, Effect} from '@ngrx/effects';
 import {Observable, of} from 'rxjs';
 import {Action} from '@ngrx/store';

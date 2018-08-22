@@ -4,7 +4,7 @@ import {Store} from '@ngrx/store';
 import * as prodActions from '../../store/actions/prod.action';
 import * as reducers from '../../store/reducers/prod.reducer';
 import * as productSelectors from '../../store/selectors/prod.selectors';
-import {Product} from '../../shared/models/product.model';
+import {Product} from '../../../shared/models/product.model';
 
 @Component({
   selector: 'app-show-page',

@@ -1,0 +1,5 @@
+<div *ngIf="(prods$ | async)?.length > 0" class="card-list">
+  <mat-card class="product-card" *ngFor="let prod of (prods$ | async)">
+    <app-prod [prod]="prod"></app-prod>
+  </mat-card>
+</div>

@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
 import {Observable} from 'rxjs';
-import {Product} from '../../shared/models/product.model';
+import {Product} from '../../../shared/models/product.model';
 
 @Component({
   selector: 'app-product-list',

@@ -1,0 +1,14 @@
+.button-row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-row button,
+.button-row a {
+  margin-right: 8px;
+  margin-bottom: 8px;
+}
+
+mat-card-content {
+  min-height: 100px;
+}

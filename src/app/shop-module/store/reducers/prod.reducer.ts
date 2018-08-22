@@ -1,4 +1,4 @@
-import {Product} from '../../shared/models/product.model';
+import {Product} from '../../../shared/models/product.model';
 import {LOADING_PRODUCT, LOADED_PRODUCT_OK, LOADED_PRODUCT_FALSE} from '../actions/prod.action';
 
 export interface State {
