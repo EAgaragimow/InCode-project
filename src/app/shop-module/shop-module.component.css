@@ -1,3 +1,4 @@
 .shop {
-  min-height: 80vh;
+  max-height: calc(100vh - 66.5px);
+  overflow: auto;
 }

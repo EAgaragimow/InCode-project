@@ -10,7 +10,6 @@ import {ActivatedRoute, Router, RouterLinkActive} from '@angular/router';
   styleUrls: ['./main-nav.component.css']
 })
 export class MainNavComponent implements OnInit {
-  target: string = '';
 
   isHandset$: Observable<boolean> = this.breakpointObserver.observe(Breakpoints.Handset)
     .pipe(
@@ -25,24 +24,10 @@ export class MainNavComponent implements OnInit {
   }
 
   ngOnInit() {
-    setTimeout(() => {
-      const str = this.router.url.match(/\w+$/ig);
-      const route = str[0];
-      for (let i = 0; i < route.length; i++) {
-        if (i === 0) {
-          this.target += route[i].toUpperCase();
-          i++;
-        }
-        this.target += route[i];
-      }
-    }, 0);
   }
 
-  onClick(route, e) {
+  onClick(route) {
     this.router.navigate(route, {relativeTo: this.route});
-    setTimeout(() => {
-      this.target = e.target.parentNode.textContent;
-    }, 0);
   }
 
 }

@@ -27,3 +27,7 @@
 .mat-drawer.mat-drawer-side {
   border-right: 2px solid #f2f2f2;
 }
+
+.mat-drawer-content {
+  overflow: hidden;
+}
