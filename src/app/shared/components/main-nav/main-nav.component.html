@@ -6,10 +6,10 @@
     [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
     [mode]="(isHandset$ | async) ? 'over' : 'side'"
     [opened]="!(isHandset$ | async)">
-    <mat-toolbar color="primary">Menu</mat-toolbar>
+    <mat-toolbar color="primary">MEGAshopSMART</mat-toolbar>
     <mat-nav-list>
-      <a routerLink="/home">Home</a>
-      <a routerLink="/home/shop">Shop</a>
+        <a mat-list-item (click)="onClick(['/home'], $event)" routerLinkActive="active">Home</a>
+        <a mat-list-item (click)="onClick(['/home/shop'], $event)" routerLinkActive="active">Shop</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -23,7 +23,7 @@
           *ngIf="isHandset$ | async">
           <mat-icon aria-label="Side nav toggle icon"><i class="fa fa-bars"></i></mat-icon>
         </button>
-        <span>MEGAshopSMART</span>
+        <span>{{target}}</span>
       </div>
       <span class="spacer"></span>
       <span class="cart"><i class="fa fa-shopping-cart"></i> 0</span>

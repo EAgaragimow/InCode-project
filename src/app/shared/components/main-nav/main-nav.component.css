@@ -23,3 +23,7 @@
 .spacer {
   flex: 1 1 auto;
 }
+
+.mat-drawer.mat-drawer-side {
+  border-right: 2px solid #f2f2f2;
+}
