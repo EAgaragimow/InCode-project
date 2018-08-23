@@ -11,6 +11,9 @@
         <a mat-list-item (click)="onClick(['/home'])" routerLinkActive="active">Home</a>
         <a mat-list-item (click)="onClick(['/home/shop'])" routerLinkActive="active">Shop</a>
     </mat-nav-list>
+    <footer class="sidenav-footer">
+      All rights reserved. &copy; 2018
+    </footer>
   </mat-sidenav>
   <mat-sidenav-content>
     <mat-toolbar color="primary">
@@ -23,9 +26,13 @@
           *ngIf="isHandset$ | async">
           <mat-icon aria-label="Side nav toggle icon"><i class="fa fa-bars"></i></mat-icon>
         </button>
-        <span>{{target}}</span>
+        <span>Content</span>
       </div>
       <span class="spacer"></span>
+      <div class="button-row auth">
+        <button mat-button color="basic">SignIn</button> |
+        <button mat-button color="basic">SignUp</button>
+      </div>
       <span class="cart"><i class="fa fa-shopping-cart"></i> 0</span>
     </mat-toolbar>
     <!-- Add Content Here -->

@@ -31,3 +31,17 @@
 .mat-drawer-content {
   overflow: hidden;
 }
+
+.button-row.auth {
+  margin-right: 20px;
+}
+
+.sidenav-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  min-height: 50px;
+  line-height: 50px;
+}
